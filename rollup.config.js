@@ -3,7 +3,6 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from 'rollup-plugin-typescript2';
 import json from '@rollup/plugin-json';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import copy from 'rollup-plugin-copy';
 import { createRequire } from 'module';
 
 const require = createRequire(import.meta.url);
@@ -38,12 +37,6 @@ export default {
       declarationDir: 'dist',
       rootDir: 'src'
     }),
-    copy({
-      targets: [
-        { src: 'src/index.css', dest: 'dist/css' }
-      ],
-      flatten: false
-    })
   ],
   external: ['react', 'react-dom', 'tailwindcss']
 };

@@ -1,18 +1,13 @@
 {
   "name": "github-bento-stats",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "GitHub stats in a bento grid for React applications",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "exports": {
-    "import": "./dist/index.esm.js",
-    "require": "./dist/index.js"
-  },
   "files": [
-    "dist",
-    "dist/css"
+    "dist"
   ],
   "scripts": {
     "build": "rollup -c",

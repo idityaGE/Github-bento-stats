@@ -1,5 +1,3 @@
-// Main entry point for the package
-import './index.css';
 
 // Export the main component
 export { default as GitHubBento } from './components/Github/GitHubBento';
