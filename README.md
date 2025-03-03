@@ -3,7 +3,7 @@
 A React component to display GitHub stats in a bento-style layout.
 
 ## Image
-![preview](/.github/images/image.png)
+![preview](https://res.cloudinary.com/dwdbqwqxk/image/upload/v1740995404/Screenshot_2025-03-03_030157_kq3hmb.png)
 
 ## Installation
 
